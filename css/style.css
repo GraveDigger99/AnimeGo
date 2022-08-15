@@ -1433,7 +1433,7 @@ body._open {
   font-weight: 600;
 }
 
-.rating_items img {
+.rating__image {
   width: 15px !important;
   height: 15px !important;
 }
@@ -1566,7 +1566,7 @@ body._open {
   position: relative;
 }
 
-.items-anime__image > img {
+.items-anime__image img {
   width: 150px;
   height: 210px;
   -o-object-fit: cover;
