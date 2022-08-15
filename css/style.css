@@ -1583,7 +1583,6 @@ body._open {
 }
 
 .content-items-anime__link {
-  font-size: 1.25rem;
   color: #ff5c57;
   line-height: 1.2;
 }
@@ -2098,13 +2097,7 @@ body._open {
 @media (max-width: 29.99875em) {
   .items-anime {
     padding-left: 0;
-    padding-top: 0;
-  }
-
-  .items-anime__column {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding-top: 15px;
   }
 }
 
