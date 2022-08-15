@@ -1436,6 +1436,8 @@ body._open {
 .rating__image {
   width: 15px !important;
   height: 15px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .rating::before {
@@ -1459,13 +1461,6 @@ body._open {
       -ms-transform: skew(30deg);
           transform: skew(30deg);
   z-index: -1;
-}
-
-.rating img {
-  width: 15px;
-  height: 15px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .last-anime {
