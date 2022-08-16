@@ -1587,6 +1587,18 @@ body._open {
   line-height: 1.2;
 }
 
+@supports (font-size: clamp( 1.125rem , 1.0857843137rem  +  0.1960784314vw , 1.25rem )) {
+  .content-items-anime__link {
+    font-size: clamp( 1.125rem , 1.0857843137rem  +  0.1960784314vw , 1.25rem );
+  }
+}
+
+@supports not (font-size: clamp( 1.125rem , 1.0857843137rem  +  0.1960784314vw , 1.25rem )) {
+  .content-items-anime__link {
+    font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 63.75);
+  }
+}
+
 .content-items-anime__text {
   font-size: 0.75rem;
   line-height: 1.5833333333;
